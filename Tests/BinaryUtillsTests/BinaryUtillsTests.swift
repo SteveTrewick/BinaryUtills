@@ -10,9 +10,9 @@ final class BinaryUtillsTests: XCTestCase {
     let u32 : UInt32 = 0xdeadbeef
     let u64 : UInt64 = 0xdeadbeefcafef00d
     
-    XCTAssert( u8.toHex()  == "EF")
-    XCTAssert( u16.toHex() == "BEEF")
-    XCTAssert( u32.toHex() == "DEADBEEF")
-    XCTAssert( u64.toHex() == "DEADBEEFCAFEF00D")
+    XCTAssert( u8.toHex_()  == "EF")
+    XCTAssert( u16.toHex_() == "BEEF")
+    XCTAssert( u32.toHex_() == "DEADBEEF")
+    XCTAssert( u64.toHex_() == "DEADBEEFCAFEF00D")
   }
 }
